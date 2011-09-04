@@ -1,0 +1,167 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="List" priority="3" />
+      <Item value="AnswerModels`0" priority="2" />
+      <Item value="this" priority="0" />
+      <Item value="public" priority="3" />
+      <Item value="IDictionary" priority="0" />
+      <Item value="string" priority="2" />
+      <Item value="set" priority="0" />
+      <Item value="return" priority="4" />
+      <Item value="new" priority="2" />
+      <Item value="AnswerModel" priority="0" />
+      <Item value="DataType" priority="0" />
+      <Item value="DataType`0" priority="0" />
+      <Item value="Html" priority="4" />
+      <Item value="foreach" priority="1" />
+      <Item value="Model" priority="4" />
+      <Item value="answer" priority="1" />
+      <Item value="AnswerModel`0" priority="1" />
+      <Item value="Ajax" priority="0" />
+      <Item value="AjaxOptions`0" priority="0" />
+      <Item value="HttpMethod" priority="0" />
+      <Item value="InsertionMode" priority="0" />
+      <Item value="InsertionMode`0" priority="0" />
+      <Item value="UpdateTargetId" priority="0" />
+      <Item value="item" priority="0" />
+      <Item value="Question`0" priority="0" />
+      <Item value="QuestionModel`0" priority="3" />
+      <Item value="if" priority="2" />
+      <Item value="ModelState" priority="0" />
+      <Item value="else" priority="1" />
+      <Item value="View`0" priority="0" />
+      <Item value="collection" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="questionId" priority="0" />
+      <Item value="Dictionary" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="question" priority="0" />
+      <Item value="null" priority="0" />
+      <Item value="var" priority="0" />
+      <Item value="List&lt;QuestionModel&gt;" priority="0" />
+      <Item value="questionList" priority="2" />
+      <Item value="QuestionModel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Survey.Models.QuestionModels">
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ComponentModel.DataAnnotations.DataType">
+      <Item value="PhoneNumber" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="RenderAction`0" priority="1" />
+      <Item value="RenderPartial`0" priority="1" />
+      <Item value="CheckBox`0" priority="1" />
+      <Item value="RadioButton`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Survey.Models.QuestionModel">
+      <Item value="Id" priority="3" />
+      <Item value="Question" priority="0" />
+      <Item value="Value" priority="0" />
+      <Item value="Save`0" priority="0" />
+      <Item value="Answers" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Survey.Models.AnswerModel">
+      <Item value="Id" priority="1" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="answer" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.Ajax.InsertionMode">
+      <Item value="InsertAfter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Survey.Models.Question">
+      <Item value="value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Survey.Models.Question">
+      <Item value="LoadAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ModelStateDictionary">
+      <Item value="IsValid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Survey.Models.AnswerModel">
+      <Item value="LoadByQuestion`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Models/f:UserAnswersModels.cs" caret="169" fromTop="10" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Controllers/f:UserController.cs" caret="0" fromTop="0" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Models/f:UserModels.cs" caret="382" fromTop="14" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Content/f:Site.css" caret="5190" fromTop="20" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:User/f:Create.ascx" caret="97" fromTop="1" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:display.ascx" caret="479" fromTop="12" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:answer/f:Index.aspx" caret="882" fromTop="18" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:answer/f:create.aspx" caret="0" fromTop="0" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Models/f:AccountModels.cs" caret="0" fromTop="0" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/f:Web.config" caret="679" fromTop="17" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:create.aspx" caret="917" fromTop="26" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:answer/f:List.ascx" caret="358" fromTop="15" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/f:Global.asax.cs" caret="785" fromTop="25" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:Home/f:Index.aspx" caret="807" fromTop="18" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Controllers/f:AnswerController.cs" caret="164" fromTop="7" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Controllers/f:QuestionController.cs" caret="668" fromTop="23" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Models/f:QuestionModels.cs" caret="2936" fromTop="26" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Models/f:AnswerModels.cs" caret="576" fromTop="20" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:details.ascx" caret="513" fromTop="23" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:Index.aspx" caret="1109" fromTop="32" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Models/f:AnswerModels.cs" caret="275" fromTop="11" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:create.aspx" caret="498" fromTop="15" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:create.aspx" caret="343" fromTop="8" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Models/f:QuestionModels.cs" caret="2446" fromTop="31" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Models/f:QuestionModels.cs" caret="2228" fromTop="22" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Controllers/f:QuestionController.cs" caret="2319" fromTop="19" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Controllers/f:QuestionController.cs" caret="2319" fromTop="28" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Controllers/f:QuestionController.cs" caret="1239" fromTop="29" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Controllers/f:QuestionController.cs" caret="946" fromTop="19" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Controllers/f:QuestionController.cs" caret="1080" fromTop="25" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Controllers/f:QuestionController.cs" caret="2463" fromTop="29" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Controllers/f:AnswerController.cs" caret="428" fromTop="21" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:details.ascx" caret="657" fromTop="2" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:details.ascx" caret="657" fromTop="30" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:details.ascx" caret="414" fromTop="15" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:Index.aspx" caret="762" fromTop="24" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:Home/f:Index.aspx" caret="779" fromTop="18" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:details.ascx" caret="565" fromTop="27" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:details.ascx" caret="598" fromTop="31" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:details.ascx" caret="300" fromTop="13" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Models/f:QuestionModels.cs" caret="3427" fromTop="35" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Models/f:QuestionModels.cs" caret="1862" fromTop="29" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Models/f:QuestionModels.cs" caret="1290" fromTop="17" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Models/f:QuestionModels.cs" caret="1115" fromTop="21" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Models/f:QuestionModels.cs" caret="2729" fromTop="27" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Models/f:QuestionModels.cs" caret="3261" fromTop="35" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Controllers/f:QuestionController.cs" caret="655" fromTop="22" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:details.ascx" caret="531" fromTop="25" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:details.ascx" caret="513" fromTop="23" />
+      <File id="55C20059-114D-4655-8BB1-683F17830121/d:Views/d:question/f:Index.aspx" caret="1109" fromTop="32" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>
