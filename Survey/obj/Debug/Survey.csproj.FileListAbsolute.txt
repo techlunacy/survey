@@ -3,3 +3,8 @@ C:\Users\graeme\documents\visual studio 2010\Projects\Survey\Survey\bin\Survey.d
 C:\Users\graeme\documents\visual studio 2010\Projects\Survey\Survey\bin\Survey.pdb
 C:\Users\graeme\documents\visual studio 2010\Projects\Survey\Survey\obj\Debug\Survey.dll
 C:\Users\graeme\documents\visual studio 2010\Projects\Survey\Survey\obj\Debug\Survey.pdb
+C:\code\survey\Survey\bin\Survey.dll
+C:\code\survey\Survey\bin\Survey.pdb
+C:\code\survey\Survey\obj\Debug\ResolveAssemblyReference.cache
+C:\code\survey\Survey\obj\Debug\Survey.dll
+C:\code\survey\Survey\obj\Debug\Survey.pdb

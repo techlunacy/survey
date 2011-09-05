@@ -89,10 +89,12 @@
     <Content Include="Views\answer\create.aspx" />
     <Content Include="Views\answer\Index.aspx" />
     <Content Include="Views\answer\List.ascx" />
+    <Content Include="Views\Home\create.aspx" />
     <Content Include="Views\question\create.aspx" />
     <Content Include="Views\question\details.ascx" />
     <Content Include="Views\question\display.ascx" />
     <Content Include="Views\question\Index.aspx" />
+    <Content Include="Views\Shared\QuestionRadioButton.ascx" />
     <Content Include="Views\User\Create.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

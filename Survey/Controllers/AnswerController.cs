@@ -19,7 +19,7 @@ namespace Survey.Controllers
 
         public ActionResult List(int questionId)
         {
-            var answers = AnswerModel.LoadByQuestion(questionId);
+            var answers = AnswerModel.GetByQuestion(questionId);
             return View(answers);
         }
 
@@ -37,29 +37,39 @@ namespace Survey.Controllers
         public ActionResult Create()
         {
             return View();
-        } 
+        }
 
         //
         // POST: /Answer/Create
 
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(AnswerModel collection)
         {
             try
             {
                 // TODO: Add insert logic here
+                if (ModelState.IsValid && Request["question_id"] != null)
+                {
 
-                return RedirectToAction("Index");
+                    collection.QuestionId = int.Parse(Request["question_id"]);
+                    collection.Save();
+
+                    return RedirectToAction("Index", "question");
+                }
+                else
+                {
+                    return View();
+                }
             }
             catch
             {
                 return View();
             }
         }
-        
+
         //
         // GET: /Answer/Edit/5
- 
+
         public ActionResult Edit(int id)
         {
             return View();
@@ -74,7 +84,7 @@ namespace Survey.Controllers
             try
             {
                 // TODO: Add update logic here
- 
+
                 return RedirectToAction("Index");
             }
             catch
@@ -85,7 +95,7 @@ namespace Survey.Controllers
 
         //
         // GET: /Answer/Delete/5
- 
+
         public ActionResult Delete(int id)
         {
             return View();
@@ -100,7 +110,7 @@ namespace Survey.Controllers
             try
             {
                 // TODO: Add delete logic here
- 
+
                 return RedirectToAction("Index");
             }
             catch

@@ -21,8 +21,7 @@
            { %>
         <tr>
             <td>
-                <%: Ajax.ActionLink(
-                    "Question", "details",new { id=item.Id },new AjaxOptions(){InsertionMode = InsertionMode.InsertAfter,UpdateTargetId = ("AnswerList"+item.Id.ToString())})%>
+                <%: Ajax.ActionLink("Answers", "details","Question", new { id=item.Id },new AjaxOptions(){InsertionMode = InsertionMode.InsertAfter,UpdateTargetId = ("AnswerList"+item.Id.ToString())})%>
             </td>
             <td>
                 <%: item.Id %>

@@ -342,8 +342,8 @@ div#title
 {
     width: 6em;
 }
-.editor-label
+.question
 {
-    float:left;
-    width:100px;
+    width:100%;
+    text-align:left;
 }

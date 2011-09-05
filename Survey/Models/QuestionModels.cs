@@ -16,7 +16,7 @@ namespace Survey.Models
         public string Value { get; set; }
         public List<AnswerModel> Answers
         {
-            get { return AnswerModel.LoadByQuestion(this.Id); }
+            get { return AnswerModel.GetByQuestion(this.Id); }
             set { throw new NotImplementedException(); }
         }
 

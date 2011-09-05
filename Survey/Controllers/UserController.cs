@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Survey.Models;
 
 namespace Survey.Controllers
 {
@@ -40,7 +41,6 @@ namespace Survey.Controllers
         {
             try
             {
-                // TODO: Add insert logic here
 
                 return RedirectToAction("Index");
             }

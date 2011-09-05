@@ -7,17 +7,30 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <h2>
         <%: ViewData["Message"] %></h2>
-    <p>
-        To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">
-            http://asp.net/mvc</a>.
-        <% using (Html.BeginForm())
-           {%>
+    <% using (Html.BeginForm("create", "home"))
+       {%>
+    <fieldset>
+        <legend>Fields</legend>
         <%: Html.ValidationSummary(true) %>
-        <%Html.RenderAction("Create", "User"); %>
+        <p>
+            <div class="editor-label">
+                Name:
+            </div>
+            <div class="editor-field">
+                <%: Html.TextBox("Name") %>
+            </div>
+            <div class="editor-label">
+                Phone:
+            </div>
+            <div class="editor-field">
+                <%: Html.TextBox("Phone") %>
+            </div>
+        </p>
         <%foreach (var question in QuestionModel.GetAll())
           {
-                //show question with answers
+              Html.RenderPartial("QuestionRadioButton", question);
           } %>
-        <% } %>
-    </p>
+        <input type="submit" value="Create" />
+    </fieldset>
+    <% } %>
 </asp:Content>

@@ -4,31 +4,24 @@
         <th>
         </th>
         <th>
-            Id
-        </th>
-        <th>
-            Question
+            Answer
         </th>
     </tr>
     <%
         if (Model.Answers != null || Model.Answers.Count > 0)%>
     <%{
-            foreach (var item in Model.Answers)
-            {%>
+          foreach (var item in Model.Answers)
+          {%>
     <tr>
         <td>
-            <%:item.Id%>
-        </td>
-        <td>
             <%:item.answer%>
-</td>
+        </td>
     </tr>
-
     <%
-            }
         }
+      }
     %>
 </table>
 <p>
-    <%: Html.ActionLink("Create New", "Create","Answer") %>
+    <%: Html.ActionLink("Create New", "Create","Answer",new {question_id=Model.Id},new{}) %>
 </p>
